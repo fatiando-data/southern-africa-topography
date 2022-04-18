@@ -1,4 +1,4 @@
-name: fatiando-data-CHANGEME
+name: fatiando-data-southern-africa-topography
 channels:
   - conda-forge
   - defaults

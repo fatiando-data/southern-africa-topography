@@ -1,8 +1,6 @@
 # Raw (original) data
 
-Include here any original raw data that can't be downloaded directly by the
-data preparation code.
-Avoid doing this if at all possible.
-
-To minimize the size of the repository, it's usually a good idea to compress
-the data files if they aren't already.
+The `etopo1-shm-southern-africa.gdf.xz` file is a compressed version of the
+downloaded `.gdf` file from the ICGEM Calculation Service.
+It was generated after ETOPO1 topography model from a spherical harmonics model
+with a grid spacing of 0.1 degrees and referenced on the WGS84 ellipsoid.
