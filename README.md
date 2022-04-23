@@ -1,39 +1,31 @@
-<!--
-This is a template for datasets in the Fatiando a Terra collection.
+# Southern Africa - Topography and bathymetry
 
-When adding a new dataset, fill out the information below. Search for all
-instances of "CHANGEME" and replace with the relevant information.
+A 1 arc-minute  resolution grid of topography over Southern Africa referenced to
+mean sea-level.
 
-You probably also want to edit the conda environment.yml file to give the
-environment a new name and add/remove dependencies.
-
-You can delete this comment once done.
--->
-
-# Location - Data type
-
-CHANGEME: A few sentences about the dataset and a plot should go here.
-
-![CHANGEME: The alt text of the image.](preview.jpg)
+![Southern Africa topography](preview.jpg)
 
 | | Summary |
 |--:|:--|
-| File | `CHANGEME.csv` |
-| Size | CHANGEME Mb |
-| Version | [CHANGEME](https://github.com/fatiando-data/CHANGEME/releases/latest) |
+| File | `southern-africa-topography.nc` |
+| Size | 1.70 Mb |
+| Version | [v1](https://github.com/fatiando-data/southern-africa-topography/releases/latest) |
 | DOI | https://doi.org/CHANGEME |
 | License | [CC-BY](https://creativecommons.org/licenses/by/4.0/) |
-| MD5 | `md5:CHANGEME` |
-| SHA256 | `sha256:CHANGEME` |
-| Source | CHANGEME: Citation and/or link to original data source |
-| Original license | CHANGEME: License (with link) of the original source |
-| Processing code | [`prepare.ipynb`](https://nbviewer.org/github/fatiando-data/CHANGEME/blob/main/prepare.ipynb) |
+| MD5 | `md5:609d14fe4e551c5dcf320cdceedd30e8` |
+| SHA256 | `sha256:3e3878a4bdf5e2e71cb85bab9d97e4e9733caf7ab5f74c0d799154fad1b41bef` |
+| Source | [ETOPO1](https://doi.org/10.7289/V5C8276M) |
+| Original license | [public domain](https://ngdc.noaa.gov/mgg/global/dem_faq.html#sec-2.4) |
+| Processing code | [`prepare.ipynb`](https://nbviewer.org/github/fatiando-data/southern-africa-topography/blob/main/prepare.ipynb) |
 
 ## Changes made
 
 > These are the changes made to the original dataset.
 
-* CHANGEME: List here changes made to the original data.
+* Crop it to a region that covers only the Southern Africa.
+* Rename the coordinates to `longitude` and `latitude`.
+* Rename the `xarray.DataArray` to `topography`.
+* Improved metadata of the dataset following CF-conventions.
 
 ## About this repository
 
