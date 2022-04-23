@@ -7,7 +7,7 @@ mean sea-level.
 
 | | Summary |
 |--:|:--|
-| File | `southern-africa-topography.csv` |
+| File | `southern-africa-topography.nc` |
 | Size | 1.70 Mb |
 | Version | [v1](https://github.com/fatiando-data/southern-africa-topography/releases/latest) |
 | DOI | https://doi.org/CHANGEME |
