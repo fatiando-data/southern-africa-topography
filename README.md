@@ -10,7 +10,7 @@ mean sea-level.
 | File | `southern-africa-topography.nc` |
 | Size | 1.70 Mb |
 | Version | [v1](https://github.com/fatiando-data/southern-africa-topography/releases/latest) |
-| DOI | https://doi.org/CHANGEME |
+| DOI | https://doi.org/10.5281/zenodo.6481379 |
 | License | [CC-BY](https://creativecommons.org/licenses/by/4.0/) |
 | MD5 | `md5:609d14fe4e551c5dcf320cdceedd30e8` |
 | SHA256 | `sha256:3e3878a4bdf5e2e71cb85bab9d97e4e9733caf7ab5f74c0d799154fad1b41bef` |
